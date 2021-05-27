@@ -1,20 +1,15 @@
 <template>
   <div class="hello">
-    <TopNav/>
 
   </div>
 </template>
 
 <script>
-import TopNav from '@/components/TopNav.vue'
 
 export default {
   name: 'HelloWorld',
   props: {
     msg: String
-  },
-  components: {
-    TopNav
   }
 }
 </script>
