@@ -1,20 +1,18 @@
 <template>
   <div class="home col-12 mb-5">
-    <div class="container py-5 mt-1 col-12 bg-light">
-      <!-- heading content -->
-      <div class="jumbotron text-center">
-        <h1 class="display-4">
-          An open source machine learning platform for scientists
-        </h1>
-        <p class="lead mt-3">
-          Access datasets and ML models while setting industry benchmarks
-        </p>
-        <a href="#"
-          ><button class="btn btn-primary btn-lg mt-3" role="button">
-            Learn more
-          </button></a
-        >
-      </div>
+    <!-- heading content -->
+    <div class="jumbotron text-center py-5 col-12 bg-light">
+      <h1 class="display-4 col-10 mx-auto">
+        An open source machine learning platform for scientists
+      </h1>
+      <p class="lead mt-3 col-7 mx-auto">
+        Access datasets and ML models while setting industry benchmarks
+      </p>
+      <a href="#"
+        ><button class="btn btn-primary btn-lg mt-3" role="button">
+          Learn more
+        </button></a
+      >
     </div>
 
     <!-- middle content -->
