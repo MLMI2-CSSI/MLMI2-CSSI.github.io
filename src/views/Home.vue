@@ -22,16 +22,16 @@
           <div class="col-sm-4 mx-auto">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Find Datasets</h5>
-                <p class="card-text">We have datasets.</p>
+                <h5 class="card-title">Datasets</h5>
+                <p class="card-text">We host datasets </p>
               </div>
             </div>
           </div>
           <div class="col-sm-4 mx-auto">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Find Models</h5>
-                <p class="card-text">We have models.</p>
+                <h5 class="card-title">ML Models</h5>
+                <p class="card-text">We host models.</p>
               </div>
             </div>
           </div>
