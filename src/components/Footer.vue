@@ -198,8 +198,15 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .site-foot {
-  background-color: #5B5B5B;
-  color: #EF8481;
+  background-color: #6f7abf;
+  color: white;
+}
+
+.foundry-pink {
+  color: #ef8481;
+}
+.foundry-blue {
+  color: #6f7abf;
 }
 </style>
 
