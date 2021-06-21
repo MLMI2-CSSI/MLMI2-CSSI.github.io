@@ -121,7 +121,7 @@
     <div class="container" style="width: 100%">
       <div class="row">
         <!-- Team Member -->
-        <div class="py-4 col-lg-3">
+        <div class="py-4 col-xl-3 col-lg-4 col-md-6">
           <div class="card border-0 shadow">
             <img
               src="https://avatars.githubusercontent.com/u/4753182?v=4"
@@ -136,7 +136,7 @@
         </div>
 
         <!-- Team Member -->
-        <div class="py-4 col-lg-3">
+        <div class="py-4 col-xl-3 col-lg-4 col-md-6">
           <div class="card border-0 shadow">
             <img
               src="https://www.mccormick.northwestern.edu/artificial-intelligence/images/meet-our-students/2019-2020/scourtas-aristana.jpg"
@@ -151,7 +151,7 @@
         </div>
 
         <!-- Team Member -->
-        <div class="py-4 col-lg-3">
+        <div class="py-4 col-xl-3 col-lg-4 col-md-6">
           <div class="card border-0 shadow">
             <img
               src="https://avatars.githubusercontent.com/u/16869564?v=4"
@@ -189,7 +189,7 @@
         <p>Hover over the image to see the effect.</p>
         -->
 
-        <div class="py-4 col-lg-3">
+        <div class="py-4 col-xl-3 col-lg-4 col-md-6">
           <div class="card border-0 shadow">
             <div class="test-container">
               <div class="card-img-top test-pic">
@@ -198,47 +198,55 @@
                   class="card-img-top test-image"
                   alt="..."
                 />
-                <div class="test-middle">
-                  <div class="row text-center">
-                    <!-- Facebook -->
-                    <div class="col col-xl-2 mx-4">
-                      <a href="#" class="fa fa-facebook"></a>
-                    </div>
+              </div>
+              <div class="mx-auto test-middle">
+                <div class="row text-center">
+                  <!-- Facebook -->
+                  <div class="h1 col col-xl-2 col-lg-2 col-md-2 col-2 mx-4">
+                    <a href="#" class="">
+                      <b-icon
+                        icon="facebook"
+                        class="rounded-circle"
+                        variant=""
+                        style="background: #ffffff"
+                      ></b-icon>
+                    </a>
+                  </div>
 
-                    <!-- I think that the issue here is that the grid is only accounting for the actual "F" (Facebook) and the bird (twitter), 
+                  <!-- I think that the issue here is that the grid is only accounting for the actual "F" (Facebook) and the bird (twitter), 
                          not the entire bubble (with the circle around it) -->
 
-                    <!-- Twitter -->
-                    <div class="col col-xl-2  mx-4">
-                      <a href="#" class="fa fa-twitter"></a>
-                    </div>
+                  <!-- Twitter -->
+                  <div class="h1 col col-xl-2 col-lg-2 col-md-2 col-2 mx-4">
+                    <a href="#" class="">
+                      <b-icon
+                        icon="twitter"
+                        class="rounded-circle py-2 px-2"
+                        variant="light"
+                        style="background: #55acee 
+                             color: #FFFFFF"
+                      ></b-icon>
+                    </a>
                   </div>
-                  <div class="row">
-                    <div class="col col-xl-6 test-text py-4">
-                      <a
-                        href="#"
-                        class="text-muted btn btn-light btn-lg"
-                        role="button"
-                        aria-disabled="true"
-                        >W</a
-                      >
-                    </div>
-                    <div class="col col-xl-6 test-text py-4">
-                      <a
-                        href="#"
-                        class="text-muted btn btn-light btn-lg"
-                        role="button"
-                        aria-disabled="true"
-                        >F</a
-                      >
-                    </div>
+
+                  <!-- LinkedIn -->
+                  <div class="h1 col col-xl-2 col-lg-2 col-md-2 col-2 mx-4">
+                    <a href="#" class="">
+                      <b-icon
+                        icon="linkedin"
+                        class="rounded-circle"
+                        variant=""
+                        style="color: #007bb5" 
+                      ></b-icon>
+                    </a>
                   </div>
+                  
                 </div>
               </div>
-              <div class="card-body text-center">
-                <h5 class="card-title mb-0">KJ Schmidt</h5>
-                <div class="card-text text-black-50">Front-End Developer</div>
-              </div>
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title mb-0">KJ Schmidt</h5>
+              <div class="card-text text-black-50">Front-End Developer</div>
             </div>
           </div>
         </div>
@@ -278,6 +286,21 @@
         >Back To Top</a
       >
     </div>
+
+    <!-- Facebook -->
+    <a style="color: #3b5998" href="#!" role="button"
+      ><i class="fab fa-facebook-f fa-lg"></i
+    ></a>
+
+    <!-- Twitter -->
+    <b-icon-twitter></b-icon-twitter>
+    <b-icon
+      icon="twitter"
+      class="rounded-circle px-1 py-1"
+      variant="light"
+      style="background: #55acee
+  color: #FFFFFF"
+    ></b-icon>
   </div>
 </template>
 
@@ -285,6 +308,8 @@
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+@import "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css";
+
 .foundry-pink {
   color: #ef8481;
 }
@@ -373,11 +398,11 @@
 .test-middle {
   transition: 0.5s ease;
   opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  position: relative;
+  top: 0%;
+  left: 0%;
+  transform: none;
+  -ms-transform: none;
   text-align: center;
 }
 
@@ -391,16 +416,6 @@
 
 .test-text {
   color: white;
-}
-
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 70px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
 }
 
 .fa:hover {
