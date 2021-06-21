@@ -13,12 +13,9 @@
     </button>
     <a class="navbar-brand mx-sm-3"
       ><router-link to="/">
-        <img
-          alt="Foundry logo"
-          src="../assets/foundry.png"
-          class="w-50"
-        /> </router-link>
-        </a>
+        <img alt="Foundry logo" src="../assets/foundry.png" class="w-50" />
+      </router-link>
+    </a>
     <div class="col-2 d-none d-md-block"></div>
     <div class="collapse navbar-collapse col-4" id="navbarNavAltMarkup">
       <div class="navbar-nav">

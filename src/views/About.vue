@@ -36,7 +36,7 @@
           style="width: 100%"
         />
       </div>
-      <h1 class="weAre text-white display-1">
+      <h1 class="wordFade text-white font-size:8vw display-1">
         <strong>We are Foundry</strong>
       </h1>
     </h1>
@@ -46,7 +46,7 @@
     <!-- Section below "We Are Foundry" section-->
     <h2 class="col-10 mt-5 pt-5 mb-5 pb-5 mx-auto">
       <div class="container">
-        <div class="text-center">
+        <div class="text-center foundry-blue">
           <h2 class="fw-light">
             We make using and sharing ML models and datasets easy.
           </h2>
@@ -118,75 +118,154 @@
       <strong>Team</strong>
     </h2>
 
-    <div class="container py-5">
-      <div class="row text-center">
+    <div class="container" style="width: 100%">
+      <div class="row">
         <!-- Team Member -->
-        <div class="col-xl-3 col-sm-6">
-          <a href="#" class="btn" role="button">
-            <div class="bg-white rounded shadow-sm py-5 px-4">
-              <img
-                class="img mb-3 img-thumbnail rounded-circle shadow-sm"
-                src="https://avatars.githubusercontent.com/u/4753182?v=4"
-                width="200"
-              />
-              <h5 class="mb-0">Ben Blaiszik</h5>
-              <span class="small text-uppercase text-muted">boss man</span>
+        <div class="py-4 col-lg-3">
+          <div class="card border-0 shadow">
+            <img
+              src="https://avatars.githubusercontent.com/u/4753182?v=4"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title mb-0">Ben Blaiszik</h5>
+              <div class="card-text text-black-50">Boss Man</div>
             </div>
-          </a>
+          </div>
         </div>
 
         <!-- Team Member -->
-        <div class="col-xl-3 col-sm-6">
-          <a
-            href="https://www.mccormick.northwestern.edu/artificial-intelligence/people/students/2019-20/aristana-scourtas.html"
-            class="btn"
-            role="button"
-          >
-            <div class="bg-white rounded shadow-sm py-5 px-4">
-              <img
-                class="img mb-3 img-thumbnail rounded-circle shadow-sm"
-                src="https://www.mccormick.northwestern.edu/artificial-intelligence/images/meet-our-students/2019-2020/scourtas-aristana.jpg"
-                width="200"
-              />
-              <h5 class="mb-0">Aristana Scourtas</h5>
-              <span class="small text-uppercase text-muted"
-                >idk what your title is</span
-              >
+        <div class="py-4 col-lg-3">
+          <div class="card border-0 shadow">
+            <img
+              src="https://www.mccormick.northwestern.edu/artificial-intelligence/images/meet-our-students/2019-2020/scourtas-aristana.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title mb-0">Aristana Scourtas</h5>
+              <div class="card-text text-black-50">Back-End Developer</div>
             </div>
-          </a>
+          </div>
         </div>
 
         <!-- Team Member -->
-        <div class="col-xl-3 col-sm-6">
-          <a href="http://kjschmidt.us/" class="nav-link btn" role="button">
-            <div class="bg-white rounded shadow-sm py-5 px-4">
+        <div class="py-4 col-lg-3">
+          <div class="card border-0 shadow">
+            <img
+              src="https://avatars.githubusercontent.com/u/16869564?v=4"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title mb-0">KJ Schmidt</h5>
+              <div class="card-text text-black-50">Front-End Developer</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Team Member -->
+        <!--
+        <div class="col-xl-3 col-md-6 mb-4">
+          <div class="card border-0 shadow">
+            <div class="card-img-top">
               <img
-                class="img mb-3 img-thumbnail rounded-circle shadow-sm"
                 src="https://avatars.githubusercontent.com/u/16869564?v=4"
-                width="200"
+                class="card-img-top"
+                alt="..."
               />
-              <h5 class="mb-0">KJ Schmidt</h5>
-              <span class="small text-uppercase text-muted"
-                >Front-End Developer</span
-              >
+
+              <myButton class="btn"> Button </myButton>
             </div>
-          </a>
+            <div class="card-body text-center">
+              <h5 class="card-title mb-0">KJ Schmidt</h5>
+              <div class="card-text text-black-50">Front-End Developer</div>
+            </div>
+          </div>
         </div>
 
-        <!-- Team Member -->
-        <div class="col-xl-3 col-sm-6">
-          <a href="#" class="btn" role="button">
-            <div class="bg-white rounded shadow-sm py-5 px-4">
-              <img
-                class="img mb-3 img-thumbnail rounded-circle shadow-sm"
-                src="https://avatars.githubusercontent.com/u/4753182?v=4"
-                width="200"
-              />
-              <h5 class="mb-0">Team Member</h5>
-              <span class="small text-uppercase text-muted">job</span>
+        <h2>Opacity with Box</h2>
+        <p>Hover over the image to see the effect.</p>
+        -->
+
+        <div class="py-4 col-lg-3">
+          <div class="card border-0 shadow">
+            <div class="test-container">
+              <div class="card-img-top test-pic">
+                <img
+                  src="https://avatars.githubusercontent.com/u/16869564?v=4"
+                  class="card-img-top test-image"
+                  alt="..."
+                />
+                <div class="test-middle">
+                  <div class="row text-center">
+                    <!-- Facebook -->
+                    <div class="col col-xl-2 mx-4">
+                      <a href="#" class="fa fa-facebook"></a>
+                    </div>
+
+                    <!-- I think that the issue here is that the grid is only accounting for the actual "F" (Facebook) and the bird (twitter), 
+                         not the entire bubble (with the circle around it) -->
+
+                    <!-- Twitter -->
+                    <div class="col col-xl-2  mx-4">
+                      <a href="#" class="fa fa-twitter"></a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col col-xl-6 test-text py-4">
+                      <a
+                        href="#"
+                        class="text-muted btn btn-light btn-lg"
+                        role="button"
+                        aria-disabled="true"
+                        >W</a
+                      >
+                    </div>
+                    <div class="col col-xl-6 test-text py-4">
+                      <a
+                        href="#"
+                        class="text-muted btn btn-light btn-lg"
+                        role="button"
+                        aria-disabled="true"
+                        >F</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0">KJ Schmidt</h5>
+                <div class="card-text text-black-50">Front-End Developer</div>
+              </div>
             </div>
-          </a>
+          </div>
         </div>
+
+        <!-- 
+
+          <div class="test-container">
+          <img
+            src="https://avatars.githubusercontent.com/u/16869564?v=4"
+            alt="Avatar"
+            class="test-image"
+            style="width: 100%"
+          />
+          <div class="test-middle">
+            <div class="test-text">
+              <a
+                href="#"
+                class="text-muted btn btn-light btn-lg"
+                role="button"
+                aria-disabled="true"
+                >BUTTON</a
+              >
+            </div>
+          </div>
+        </div>
+
+        -->
       </div>
     </div>
 
@@ -202,19 +281,15 @@
   </div>
 </template>
 
+
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
 .foundry-pink {
   color: #ef8481;
 }
 .foundry-blue {
   color: #6f7abf;
-}
-
-.img-fill {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
 }
 
 .tint {
@@ -237,12 +312,12 @@
 /*.tint:hover:before {
   background: none;
 }*/
-.weAre {
+.wordFade {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  animation: fadeInAnimation ease 3s;
+  animation: fadeInAnimation ease 5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
@@ -253,5 +328,188 @@
   100% {
     opacity: 1;
   }
+}
+
+.tintTeam {
+  position: relative;
+  cursor: pointer;
+}
+.tintTeam:hover:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+  transition: background 0.3s linear;
+}
+.tintTeam:before {
+  background: none;
+}
+
+/*
+.test-pic:hover {
+  opacity: 0.3;
+}
+*/
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+/* AHHHHHHHH */
+.test-image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.test-middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.test-container:hover .test-image {
+  opacity: 0.25;
+}
+
+.test-container:hover .test-middle {
+  opacity: 1;
+}
+
+.test-text {
+  color: white;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+
+.fa-vine {
+  background: #00b489;
+  color: white;
+}
+
+.fa-foursquare {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-stumbleupon {
+  background: #eb4924;
+  color: white;
+}
+
+.fa-flickr {
+  background: #f40083;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+.fa-soundcloud {
+  background: #ff5500;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa-rss {
+  background: #ff6600;
+  color: white;
 }
 </style>
