@@ -22,10 +22,11 @@
           <div class="col-sm-4 mx-auto">
             <div class="card">
               <div class="card-body text-center">
+                <a href="https://github.com/MLMI2-CSSI/foundry/tree/main/examples/publishing-guides" target="blank">
                 <b-icon
                   icon="file-bar-graph"
                   class="display-4 icons my-2"
-                ></b-icon>
+                ></b-icon></a>
 
                 <h5 class="card-title mt-2">Add your dataset</h5>
                 <p class="card-text">
@@ -38,7 +39,8 @@
           <div class="col-sm-4 mx-auto">
             <div class="card">
               <div class="card-body text-center">
-                <b-icon icon="gear" class="display-4 icons my-2"></b-icon>
+                <a href="https://github.com/MLMI2-CSSI/foundry/tree/main/examples/publishing-guides" target="blank">
+                <b-icon icon="gear" class="display-4 icons my-2"></b-icon></a>
 
                 <h5 class="card-title mt-2">Add your model</h5>
                 <p class="card-text">
@@ -52,8 +54,8 @@
       </div>
     </div>
     <!-- Starter code and metadata section -->
-    <div class="col-10 my-5 mx-auto">
-      <h1 class="mb-4">We make collaboration easy</h1>
+    <div class="col-10 my-5 mx-auto pt-4">
+      <h1 class="mb-5">We make collaboration easy</h1>
       <div class="row mb-5">
         <div class="col-6">
           <pre v-highlightjs class="bg-light px-4"><code class="python">
