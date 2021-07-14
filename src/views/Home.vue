@@ -8,10 +8,10 @@
       <p class="lead mt-3 col-7 mx-auto">
         Access datasets and ML models while setting industry benchmarks
       </p>
-      <a href="#"
+      <router-link to="/about"
         ><button class="btn btn-primary btn-lg mt-3" role="button">
           Learn more
-        </button></a
+        </button></router-link
       >
     </div>
 
@@ -52,7 +52,7 @@
       </div>
     </div>
     <!-- Starter code and metadata section -->
-    <div class="col-10 my-5 mx-auto ">
+    <div class="col-10 my-5 mx-auto">
       <h1 class="mb-4">We make collaboration easy</h1>
       <div class="row mb-5">
         <div class="col-6">
@@ -71,7 +71,13 @@ X,y = f.load_data()
             Once a dataset is uploaded to Foundry, you can load it with just 2
             lines of code.
           </p>
-          <a href="https://colab.research.google.com/github/MLMI2-CSSI/foundry/blob/main/examples/dendrite-segmentation/dendrite_segmentation.ipynb" target="blank"><button class="btn btn-primary">Run this in Google Colab</button></a>
+          <a
+            href="https://colab.research.google.com/github/MLMI2-CSSI/foundry/blob/main/examples/dendrite-segmentation/dendrite_segmentation.ipynb"
+            target="blank"
+            ><button class="btn btn-primary">
+              Run this in Google Colab
+            </button></a
+          >
         </div>
       </div>
       <!-- end of row -->
@@ -81,20 +87,33 @@ X,y = f.load_data()
       <div class="row">
         <div class="col-6">
           <p class="lead">
-            No need to spend time making sense of someone else's data.
-            Our publishing process includes a human review to make sure it meets
-            our data standards. We also collect information about each dataset
-            to take out any guesswork on your part.
+            No need to spend time making sense of someone else's data. Our
+            publishing process includes a human review to make sure it meets our
+            data standards. We also collect information about each dataset to
+            take out any guesswork on your part.
           </p>
         </div>
-        <div class="col-5">metadata here</div>
+        <div class="col-5">
+          <table class="table table-striped">
+            <tbody>
+              <tr>
+                <td class="fw-bold">hello</td>
+                <td>hello</td>
+              </tr>
+              <tr>
+                <td class="fw-bold">hello</td>
+                <td>hello</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
       <!-- end of row -->
     </div>
 
     <!-- be apart of foundry section -->
 
-    <hr class="col-10 m-auto"/>
+    <hr class="col-10 m-auto" />
 
     <div class="mx-auto col-7 mt-5">
       <div class="col-11 mx-auto">
