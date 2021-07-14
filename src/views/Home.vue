@@ -22,9 +22,12 @@
           <div class="col-sm-4 mx-auto">
             <div class="card">
               <div class="card-body text-center">
-                <b-icon icon="file-bar-graph" class="display-4 icons"></b-icon>
+                <b-icon
+                  icon="file-bar-graph"
+                  class="display-4 icons my-2"
+                ></b-icon>
 
-                <h5 class="card-title">Add your dataset</h5>
+                <h5 class="card-title mt-2">Add your dataset</h5>
                 <p class="card-text">
                   We host data from a variety of scientific domains and make it
                   easy to share and use.
@@ -35,9 +38,9 @@
           <div class="col-sm-4 mx-auto">
             <div class="card">
               <div class="card-body text-center">
-                <b-icon icon="gear" class="display-4 icons"></b-icon>
+                <b-icon icon="gear" class="display-4 icons my-2"></b-icon>
 
-                <h5 class="card-title">Add your model</h5>
+                <h5 class="card-title mt-2">Add your model</h5>
                 <p class="card-text">
                   Our models live in the cloud, which makes them easy to
                   implement and share.
@@ -49,30 +52,46 @@
       </div>
     </div>
     <!-- Starter code and metadata section -->
-    <div class="col-8 my-5 mx-auto">
-      <h2>whatever this is</h2>
-      <div class="row">
-        <div class="col-7">
-          <pre
-            v-highlightjs
-            class="bg-light"
-          ><code class="python">const s = new Date().toString(){
-  hi }</code></pre>
+    <div class="col-10 my-5 mx-auto ">
+      <h1 class="mb-4">We make collaboration easy</h1>
+      <div class="row mb-5">
+        <div class="col-6">
+          <pre v-highlightjs class="bg-light p-2"><code class="python">
+f = f.load("_test_foundry_stan_dendrite_segmentation_v1.1", globus=False)
+            
+X,y = f.load_data()
+
+  </code></pre>
         </div>
-        <div class="col-4">text here</div>
+        <div class="col-5">
+          <p class="fw-light fs-4">
+            Once a dataset is uploaded to Foundry, you can load it with just 2
+            lines of code.
+          </p>
+          <button class="btn btn-primary">See Examples</button>
+        </div>
       </div>
       <!-- end of row -->
-      <div class="col-12 text-right">
-        <h2 class="col-12">whatever this is</h2>
+      <div class="col-12 text-end">
+        <h1 class="col-12 my-5">and save you valuable time</h1>
       </div>
       <div class="row">
-        <div class="col-4">text here</div>
-        <div class="col-7">metadata here</div>
+        <div class="col-6">
+          <p class="lead">
+            No need to spend time making sense of someone else's data.
+            Our publishing process includes a human review to make sure it meets
+            our data standards. We also collect information about each dataset
+            to take out any guesswork on your part.
+          </p>
+        </div>
+        <div class="col-5">metadata here</div>
       </div>
       <!-- end of row -->
     </div>
 
     <!-- be apart of foundry section -->
+
+    <hr class="col-10 m-auto"/>
 
     <div class="mx-auto col-7 mt-5">
       <div class="col-9 mx-auto">
@@ -112,6 +131,15 @@
 .icons {
   color: #6e79bf;
   /* EE8380 */
+}
+
+pre {
+  overflow-x: auto;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
 }
 </style>
 
