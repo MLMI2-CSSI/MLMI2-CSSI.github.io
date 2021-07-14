@@ -45,7 +45,7 @@
                 <h5 class="card-title mt-2">Add your model</h5>
                 <p class="card-text">
                   Our models live in the cloud, which makes them easy to
-                  implement and share.
+                  run and share.
                 </p>
               </div>
             </div>
@@ -89,10 +89,10 @@ X,y = f.load_data()
       <div class="row">
         <div class="col-6">
           <p class="lead">
-            No need to spend time making sense of someone else's data. Our
-            publishing process includes a human review to make sure it meets our
-            data standards. We also collect information about each dataset to
-            take out any guesswork on your part.
+            No need to spend time making sense of someone else's data. We collect information about each dataset to
+            take out any guesswork on your part. Our
+            publishing process also includes a human review to make sure it meets our
+            data standards. 
           </p>
         </div>
         <div class="col-5">
