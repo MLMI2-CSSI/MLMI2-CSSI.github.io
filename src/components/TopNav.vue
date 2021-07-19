@@ -25,7 +25,7 @@
         <a
           class="nav-item nav-link"
           target="blank"
-          href="https://github.com/MLMI2-CSSI/foundry"
+          href="https://ai-materials-and-chemistry.gitbook.io/foundry/v/docs/"
           >Documentation</a
         >
         <a
