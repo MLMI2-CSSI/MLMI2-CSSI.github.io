@@ -54,8 +54,63 @@
       </div>
     </h2>
 
+    <section>
+      <div class="img-wrapper-left first"></div>
+      <div class="container mr-0">
+        <div class="row" style="width: 100%">
+          <div class="text-content mb-4 mt-4 py-5 display-4">
+            <h2 class="mb-4"><strong>Accessibility</strong></h2>
+            <h4 class="fw-light mb-0">
+              Foundry simplifies your workflow by hosting large interpretable
+              datasets and ready-to-use models. We remove common barriers for
+              using machine learning so you can get right to work on your
+              research. Reproducing models and using large datasets has never
+              been easier.
+            </h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="img-wrapper-right second"></div>
+      <div class="container ml-0">
+        <div class="row" style="width: 100%">
+          <div class="text-content mb-4 mt-4 py-5 display-4">
+            <h2 class="mb-4"><strong>Community</strong></h2>
+            <h4 class="fw-light mb-0">
+              We strive to connect like-minded people to drive research forward.
+              Whether you're a scientist who would like to use machine learning
+              but doesn't know where to start, or a software engineer looking to
+              apply your machine learning knowledge, we have a space for you in
+              our community.
+            </h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="img-wrapper-left third"></div>
+      <div class="container mr-0">
+        <div class="row" style="width: 100%">
+          <div class="text-content mb-4 mt-4 py-5 display-4">
+            <h2 class="mb-4"><strong>Collaboration</strong></h2>
+            <h4 class="fw-light mb-0">
+              Sharing data and models is more important now than ever. As the
+              reproducibility crisis in science continues to limit research, we
+              see Foundry as the ultimate collaborative tool to combat it. We
+              host large datasets that can be loaded from anywhere and models
+              that are run on our service so there are no computing power
+              requirements for you.
+            </h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Pics with stuff about Foundry -->
-    <div class="col-12 display-4">
+    <!-- <div class="col-12 display-4">
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-6 gx-0 gy-0">
@@ -66,22 +121,26 @@
             />
           </div>
           <div class="col my-auto">
-            <h2 class="mb-4"><strong>Somethin we do</strong></h2>
+            <h2 class="mb-4"><strong>Accessibility</strong></h2>
             <h4 class="fw-light">
-              Tiramisu candy canes wafer cotton candy brownie halvah tootsie
-              roll. Sugar plum ice cream oat cake bear claw biscuit. Icing
-              gummies macaroon lollipop cake cookie wafer muffin.
+              Foundry simplifies your workflow by hosting large interpretable
+              datasets and ready-to-use models. We remove common barriers for
+              using machine learning so you can get right to work on your
+              research. Reproducing models and using large datasets has never
+              been easier.
             </h4>
           </div>
         </div>
 
         <div class="row">
           <div class="col my-auto">
-            <h2 class="mb-4"><strong>Somethin we do</strong></h2>
+            <h2 class="mb-4"><strong>Community</strong></h2>
             <h4 class="fw-light">
-              Tiramisu candy canes wafer cotton candy brownie halvah tootsie
-              roll. Sugar plum ice cream oat cake bear claw biscuit. Icing
-              gummies macaroon lollipop cake cookie wafer muffin.
+              We strive to connect like-minded people to drive research forward.
+              Whether you're a scientist who would like to use machine learning
+              but doesn't know where to start, or a software engineer looking to
+              apply your machine learning knowledge, we have a space for you in
+              our community.
             </h4>
           </div>
           <div class="col-sm-6 gx-0 gy-0">
@@ -102,18 +161,22 @@
             />
           </div>
           <div class="col my-auto">
-            <h2 class="mb-4"><strong>Somethin we do</strong></h2>
+            <h2 class="mb-4"><strong>Collaboration</strong></h2>
             <h4 class="fw-light">
-              Tiramisu candy canes wafer cotton candy brownie halvah tootsie
-              roll. Sugar plum ice cream oat cake bear claw biscuit. Icing
-              gummies macaroon lollipop cake cookie wafer muffin.
+              Sharing data and models is more important now than ever. As the
+              reproducibility crisis in science continues to limit research, we
+              see Foundry as the ultimate collaborative tool to combat it. We
+              host large datasets that can be loaded from anywhere and models
+              that are run on our service so there are no computing power
+              requirements for you.
             </h4>
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- TEAM SECTION -->
+    <!-- Decided on email, github, linkedin, personal website (if available) -->
     <h2 class="display-4 text-center mt-5 py-5">
       <strong>Team</strong>
     </h2>
@@ -121,123 +184,125 @@
     <div class="container" style="width: 100%">
       <div class="row">
         <!-- Team Member -->
-        <div class="py-4 col-lg-3">
-          <div class="card border-0 shadow">
-            <img
-              src="https://avatars.githubusercontent.com/u/4753182?v=4"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body text-center">
-              <h5 class="card-title mb-0">Ben Blaiszik</h5>
-              <div class="card-text text-black-50">Boss Man</div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Team Member -->
-        <div class="py-4 col-lg-3">
-          <div class="card border-0 shadow">
-            <img
-              src="https://www.mccormick.northwestern.edu/artificial-intelligence/images/meet-our-students/2019-2020/scourtas-aristana.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body text-center">
-              <h5 class="card-title mb-0">Aristana Scourtas</h5>
-              <div class="card-text text-black-50">Back-End Developer</div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Team Member -->
-        <div class="py-4 col-lg-3">
-          <div class="card border-0 shadow">
-            <img
-              src="https://avatars.githubusercontent.com/u/16869564?v=4"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body text-center">
-              <h5 class="card-title mb-0">KJ Schmidt</h5>
-              <div class="card-text text-black-50">Front-End Developer</div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Team Member -->
-        <!--
-        <div class="col-xl-3 col-md-6 mb-4">
-          <div class="card border-0 shadow">
-            <div class="card-img-top">
-              <img
-                src="https://avatars.githubusercontent.com/u/16869564?v=4"
-                class="card-img-top"
-                alt="..."
-              />
-
-              <myButton class="btn"> Button </myButton>
-            </div>
-            <div class="card-body text-center">
-              <h5 class="card-title mb-0">KJ Schmidt</h5>
-              <div class="card-text text-black-50">Front-End Developer</div>
-            </div>
-          </div>
-        </div>
-
-        <h2>Opacity with Box</h2>
-        <p>Hover over the image to see the effect.</p>
-        -->
-
-        <div class="py-4 col-xl-3 col-lg-4 col-md-6">
+        <!-- Ben -->
+        <div class="py-4 col-xl-4 col-lg-4 col-md-6">
           <div class="card border-0 shadow">
             <div class="test-container">
               <div class="card-img-top test-pic">
                 <img
-                  src="https://avatars.githubusercontent.com/u/16869564?v=4"
+                  src="../assets/headshots/ben_headshot.png"
                   class="card-img-top test-image"
                   alt="..."
                 />
               </div>
               <div class="mx-auto test-middle">
-                <div class="row text-center">
-                  <!-- Facebook -->
-                  <div class="h1 col col-xl-2 col-lg-2 col-md-2 col-2 mx-4">
-                    <a href="#" class="">
-                      <b-icon
-                        icon="facebook"
-                        class="rounded-circle"
-                        variant=""
-                        style="background: #ffffff"
-                      ></b-icon>
-                    </a>
-                  </div>
-                  <!-- I think that the issue here is that the grid is only accounting for the actual "F" (Facebook) and the bird (twitter), 	
-                         not the entire bubble (with the circle around it) -->
-                  <!-- Twitter -->
-                  <div class="h1 col col-xl-2 col-lg-2 col-md-2 col-2 mx-4">
-                    <a href="#" class="">
-                      <b-icon
-                        icon="twitter"
-                        class="rounded-circle py-2 px-2"
-                        variant="light"
-                        style="background: #55acee 	
-                             color: #FFFFFF"
-                      ></b-icon>
-                    </a>
-                  </div>
-                  <!-- LinkedIn -->
-                  <div class="h1 col col-xl-2 col-lg-2 col-md-2 col-2 mx-4">
-                    <a href="#" class="">
-                      <b-icon
-                        icon="linkedin"
-                        class="rounded-circle"
-                        variant=""
-                        style="color: #007bb5"
-                      ></b-icon>
-                    </a>
-                  </div>
+                <!-- Social media buttons (on hover) -->
+                <div class="social-links">
+                  <ul class="list-inline mt-5 pt-5">
+                    <!-- Github -->
+                    <li class="list-inline-item">
+                      <a href="https://github.com/blaiszik"
+                        ><i
+                          class="fa fa-github social-icon"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                    </li>
+                    <!-- Linkedin -->
+                    <li class="list-inline-item">
+                      <a href="https://www.linkedin.com/in/benblaiszik/"
+                        ><i
+                          class="fa fa-linkedin social-icon"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                    </li>
+                    <!-- Mail -->
+                    <li class="list-inline-item">
+                      <a href="mailto:blaiszik@uchicago.edu"
+                        ><i
+                          class="fa fa-envelope social-icon"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                    </li>
+                    <!-- Personal website --
+                    <li class="list-inline-item">
+                      <a href="#"
+                        ><i
+                          class="fa fa-user social-icon"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                    </li> -->
+                  </ul>
                 </div>
+                <!-- End of social buttons -->
+              </div>
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0">Ben Blaiszik</h5>
+                <div class="card-text text-black-50">Boss Man</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Team Member -->
+        <!-- KJ -->
+        <div class="py-4 col-xl-4 col-lg-4 col-md-6">
+          <div class="card border-0 shadow">
+            <div class="test-container">
+              <div class="card-img-top test-pic">
+                <img
+                  src="../assets/headshots/kj_headshot.png"
+                  class="card-img-top test-image"
+                  alt="..."
+                  id="zoom_from_top"
+                />
+              </div>
+              <div class="mx-auto test-middle">
+                <!-- Social media buttons (on hover) -->
+                <div class="social-links">
+                  <ul class="list-inline mt-5 pt-5">
+                    <!-- Github -->
+                    <li class="list-inline-item">
+                      <a href="https://github.com/kjschmidt913"
+                        ><i
+                          class="fa fa-github social-icon"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                    </li>
+                    <!-- Linkedin -->
+                    <li class="list-inline-item">
+                      <a href="https://www.linkedin.com/in/schmidtkj/"
+                        ><i
+                          class="fa fa-linkedin social-icon"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                    </li>
+                    <!-- Mail -->
+                    <li class="list-inline-item">
+                      <a href="mailto:kjschmidt@uchicago.edu"
+                        ><i
+                          class="fa fa-envelope social-icon"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                    </li>
+                    <!-- Personal website -->
+                    <li class="list-inline-item">
+                      <a href="http://kjschmidt.us"
+                        ><i
+                          class="fa fa-user social-icon"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- End of social buttons -->
               </div>
               <div class="card-body text-center">
                 <h5 class="card-title mb-0">KJ Schmidt</h5>
@@ -247,29 +312,607 @@
           </div>
         </div>
 
-        <!-- 
-
-          <div class="test-container">
-          <img
-            src="https://avatars.githubusercontent.com/u/16869564?v=4"
-            alt="Avatar"
-            class="test-image"
-            style="width: 100%"
-          />
-          <div class="test-middle">
-            <div class="test-text">
-              <a
-                href="#"
-                class="text-muted btn btn-light btn-lg"
-                role="button"
-                aria-disabled="true"
-                >BUTTON</a
-              >
+        <!-- Team Member -->
+        <!-- Ari -->
+        <div class="py-4 col-xl-4 col-lg-4 col-md-6">
+          <div class="card border-0 shadow">
+            <div class="test-container">
+              <div class="card-img-top test-pic">
+                <img
+                  src="../assets/headshots/ari_headshot.png"
+                  class="card-img-top test-image"
+                  alt="..."
+                />
+              </div>
+              <div class="mx-auto test-middle">
+                <!-- Social media buttons (on hover) -->
+                <div class="social-links">
+                  <ul class="list-inline mt-5 pt-5">
+                    <!-- Github -->
+                    <li class="list-inline-item">
+                      <a href="https://github.com/ascourtas"
+                        ><i
+                          class="fa fa-github social-icon"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                    </li>
+                    <!-- Linkedin -->
+                    <li class="list-inline-item">
+                      <a
+                        href="https://www.linkedin.com/in/aristana-scourtas-3a5b85106/"
+                        ><i
+                          class="fa fa-linkedin social-icon"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                    </li>
+                    <!-- Mail -->
+                    <li class="list-inline-item">
+                      <a href="mailto:aristana@uchicago.edu"
+                        ><i
+                          class="fa fa-envelope social-icon"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                    </li>
+                    <!-- Personal website --
+                    <li class="list-inline-item">
+                      <a href="#"
+                        ><i
+                          class="fa fa-user social-icon"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                    </li> -->
+                  </ul>
+                </div>
+                <!-- End of social buttons -->
+              </div>
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0">Aristana Scourtas</h5>
+                <div class="card-text text-black-50">Back-End Developer</div>
+              </div>
             </div>
           </div>
         </div>
 
-        -->
+        <!-- Team Member -->
+        <!-- Imogen -->
+        <div class="py-4 col-xl-4 col-lg-4 col-md-6">
+          <div class="card border-0 shadow">
+            <div class="test-container">
+              <div class="card-img-top test-pic zoom_from_top">
+                <img
+                  src="https://www.harmonettesacappella.com/uploads/4/1/0/5/4105974/published/screen-shot-2018-11-05-at-8-33-26-pm_1.png?1566856223"
+                  class="card-img-top test-image"
+                  alt="..."
+                  id="zoom_from_top"
+                />
+              </div>
+              <div class="mx-auto test-middle">
+                <!-- Social media buttons (on hover) -->
+                <div class="social-links">
+                  <ul class="list-inline mt-5 pt-5">
+                    <!-- Github -->
+                    <li class="list-inline-item">
+                      <a href="https://github.com/imogen-foster"
+                        ><i
+                          class="fa fa-github social-icon"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                    </li>
+                    <!-- Linkedin -->
+                    <li class="list-inline-item">
+                      <a href="https://www.linkedin.com/in/imogen-foster/"
+                        ><i
+                          class="fa fa-linkedin social-icon"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                    </li>
+                    <!-- Mail -->
+                    <li class="list-inline-item">
+                      <a href="mailto:ifoster@umich.edu"
+                        ><i
+                          class="fa fa-envelope social-icon"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                    </li>
+                    <!-- Personal website --
+                    <li class="list-inline-item">
+                      <a href="#"
+                        ><i
+                          class="fa fa-user social-icon"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                    </li> -->
+                  </ul>
+                </div>
+                <!-- End of social buttons -->
+              </div>
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0">Imogen Foster</h5>
+                <div class="card-text text-black-50">Intern</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Team Member -->
+        <!-- Zoa -->
+        <div class="py-4 col-xl-4 col-lg-4 col-md-6">
+          <div class="card border-0 shadow">
+            <div class="test-container">
+              <div class="card-img-top test-pic">
+                <img
+                  src="../assets/headshots/zoa_headshot.png"
+                  class="card-img-top test-image zoom_from_top"
+                  alt="..."
+                />
+              </div>
+              <div class="mx-auto test-middle">
+                <!-- Social media buttons (on hover) -->
+                <div class="social-links">
+                  <ul class="list-inline mt-5 pt-5">
+                    <!-- Github -->
+                    <li class="list-inline-item">
+                      <a href="https://github.com/zk794"
+                        ><i
+                          class="fa fa-github social-icon"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                    </li>
+                    <!-- Linkedin -->
+                    <li class="list-inline-item">
+                      <a href="https://www.linkedin.com/in/zoa-katok/"
+                        ><i
+                          class="fa fa-linkedin social-icon"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                    </li>
+                    <!-- Mail -->
+                    <li class="list-inline-item">
+                      <a href="mailto:zkatok@uchicago.edu"
+                        ><i
+                          class="fa fa-envelope social-icon"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                    </li>
+                    <!-- Personal website --
+                    <li class="list-inline-item">
+                      <a href="#"
+                        ><i
+                          class="fa fa-user social-icon"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                    </li> -->
+                  </ul>
+                </div>
+                <!-- End of social buttons -->
+              </div>
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0">Zoa</h5>
+                <div class="card-text text-black-50">Intern</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Team Member -->
+        <!-- Ribhav -->
+        <div class="py-4 col-xl-4 col-lg-4 col-md-6">
+          <div class="card border-0 shadow">
+            <div class="test-container">
+              <div class="card-img-top test-pic">
+                <img
+                  src="https://media-exp1.licdn.com/dms/image/C4D03AQFpW8SD-AE4RA/profile-displayphoto-shrink_200_200/0/1609700428475?e=1628726400&v=beta&t=CRURJzPh8STIk20JHHLYhOezPWPrxczu4JThbdAcfec"
+                  class="card-img-top test-image"
+                  alt="..."
+                />
+              </div>
+              <div class="mx-auto test-middle">
+                <!-- Social media buttons (on hover) -->
+                <div class="social-links">
+                  <ul class="list-inline mt-5 pt-5">
+                    <!-- Github -->
+                    <li class="list-inline-item">
+                      <a href="https://github.com/ribhavb"
+                        ><i
+                          class="fa fa-github social-icon"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                    </li>
+                    <!-- Linkedin -->
+                    <li class="list-inline-item">
+                      <a href="https://www.linkedin.com/in/ribhavbose/"
+                        ><i
+                          class="fa fa-linkedin social-icon"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                    </li>
+                    <!-- Mail -->
+                    <li class="list-inline-item">
+                      <a href="mailto:boser@uchicago.edu"
+                        ><i
+                          class="fa fa-envelope social-icon"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                    </li>
+                    <!-- Personal website --
+                    <li class="list-inline-item">
+                      <a href="#"
+                        ><i
+                          class="fa fa-user social-icon"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                    </li> -->
+                  </ul>
+                </div>
+                <!-- End of social buttons -->
+              </div>
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0">Ribhav</h5>
+                <div class="card-text text-black-50">Intern</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- UW TEAM SECTION -->
+    <h2 class="display-4 text-center mt-5 py-5">
+      <strong>University of Wisconsin Team</strong>
+    </h2>
+
+    <div class="container" style="width: 100%">
+      <div class="row">
+        <!-- UW Team Member -->
+        <!-- Dane Morgan -->
+        <div class="py-4 col-xl-4 col-lg-4 col-md-6">
+          <div class="card border-0 shadow">
+            <div class="test-container">
+              <div class="card-img-top test-pic">
+                <img
+                  src="https://news.wisc.edu/content/uploads/2018/07/Dane-Morgan-e1532021881649.jpg"
+                  class="card-img-top test-image"
+                  alt="..."
+                />
+              </div>
+              <div class="mx-auto test-middle">
+                <!-- Social media buttons (on hover) -->
+                <div class="social-links">
+                  <ul class="list-inline mt-5 pt-5">
+                    <!-- Github --
+                    <li class="list-inline-item">
+                      <a href="https://github.com/ribhavb"
+                        ><i
+                          class="fa fa-github social-icon"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                    </li> -->
+                    <!-- Linkedin -->
+                    <li class="list-inline-item">
+                      <a href="https://www.linkedin.com/in/dane-morgan-694a38/"
+                        ><i
+                          class="fa fa-linkedin social-icon"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                    </li>
+                    <!-- Mail -->
+                    <li class="list-inline-item">
+                      <a href="mailto:ddmorgan@wisc.edu"
+                        ><i
+                          class="fa fa-envelope social-icon"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- End of social buttons -->
+              </div>
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0">Dane Morgan</h5>
+                <div class="card-text text-black-50">Faculty</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- UW Team Member -->
+        <!-- Ryan Jacobs -->
+        <div class="py-4 col-xl-4 col-lg-4 col-md-6">
+          <div class="card border-0 shadow">
+            <div class="test-container">
+              <div class="card-img-top test-pic">
+                <img
+                  src="https://matmodel.engr.wisc.edu/wp-content/uploads/sites/668/2017/12/RJ_photo-e1513313351991.jpg"
+                  class="card-img-top test-image"
+                  alt="..."
+                />
+              </div>
+              <div class="mx-auto test-middle">
+                <!-- Social media buttons (on hover) -->
+                <div class="social-links">
+                  <ul class="list-inline mt-5 pt-5">
+                    <!-- Github --
+                    <li class="list-inline-item">
+                      <a href="#"
+                        ><i
+                          class="fa fa-github social-icon"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                    </li> -->
+                    <!-- Linkedin -->
+                    <li class="list-inline-item">
+                      <a
+                        href="https://www.linkedin.com/in/ryan-jacobs-7b7bb945/"
+                        ><i
+                          class="fa fa-linkedin social-icon"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                    </li>
+                    <!-- Mail -->
+                    <li class="list-inline-item">
+                      <a href="mailto:rjacobs3@wisc.edu"
+                        ><i
+                          class="fa fa-envelope social-icon"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- End of social buttons -->
+              </div>
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0">Ryan Jacobs</h5>
+                <div class="card-text text-black-50">Staff Scientist</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Team Member -->
+        <!-- Paul Voyles -->
+        <div class="py-4 col-xl-4 col-lg-4 col-md-6">
+          <div class="card border-0 shadow">
+            <div class="test-container">
+              <div class="card-img-top test-pic">
+                <img
+                  src="https://directory.engr.wisc.edu/private/includes/profilePictures/v/voyles_paul.jpg"
+                  class="card-img-top test-image"
+                  alt="..."
+                  id="zoom_from_top"
+                />
+              </div>
+              <div class="mx-auto test-middle">
+                <!-- Social media buttons (on hover) -->
+                <div class="social-links">
+                  <ul class="list-inline mt-5 pt-5">
+                    <!-- Github --
+                    <li class="list-inline-item">
+                      <a href="#"
+                        ><i
+                          class="fa fa-github social-icon"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                    </li> -->
+                    <!-- Linkedin -->
+                    <li class="list-inline-item">
+                      <a
+                        href="https://www.linkedin.com/in/paul-voyles-a5367a48/"
+                        ><i
+                          class="fa fa-linkedin social-icon"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                    </li>
+                    <!-- Mail -->
+                    <li class="list-inline-item">
+                      <a href="mailto:paul.voyles@wisc.edu"
+                        ><i
+                          class="fa fa-envelope social-icon"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- End of social buttons -->
+              </div>
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0">Paul Voyles</h5>
+                <div class="card-text text-black-50">Professor</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Team Member -->
+        <!-- Lane Schultz -->
+        <div class="py-4 col-xl-4 col-lg-4 col-md-6">
+          <div class="card border-0 shadow">
+            <div class="test-container">
+              <div class="card-img-top test-pic">
+                <img
+                  src="https://gers.engr.wisc.edu/files/Picture/IMG_0694-e1530895632442%20-%20Lane%20Schultz.jpg"
+                  class="card-img-top test-image"
+                  alt="..."
+                />
+              </div>
+              <div class="mx-auto test-middle">
+                <!-- Social media buttons (on hover) -->
+                <div class="social-links">
+                  <ul class="list-inline mt-5 pt-5">
+                    <!-- Github --
+                    <li class="list-inline-item">
+                      <a href="#"
+                        ><i
+                          class="fa fa-github social-icon"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                    </li> -->
+                    <!-- Linkedin --
+                    <li class="list-inline-item">
+                      <a href="#"
+                        ><i
+                          class="fa fa-linkedin social-icon"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                    </li> -->
+                    <!-- Mail -->
+                    <li class="list-inline-item">
+                      <a href="mailto:lsschultz@wisc.edu"
+                        ><i
+                          class="fa fa-envelope social-icon"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- End of social buttons -->
+              </div>
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0">Lane Schultz</h5>
+                <div class="card-text text-black-50">Graduate Student</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Team Member -->
+        <!-- Jingrui Wei -->
+        <div class="py-4 col-xl-4 col-lg-4 col-md-6">
+          <div class="card border-0 shadow">
+            <div class="test-container">
+              <div class="card-img-top test-pic zoom_from_top">
+                <img
+                  src="https://i1.rgstatic.net/ii/profile.image/583671371292678-1516169507532_Q512/Jingrui-Wei.jpg"
+                  class="card-img-top test-image"
+                  alt="..."
+                  id="zoom_from_top"
+                />
+              </div>
+              <div class="mx-auto test-middle">
+                <!-- Social media buttons (on hover) -->
+                <div class="social-links">
+                  <ul class="list-inline mt-5 pt-5">
+                    <!-- Github --
+                    <li class="list-inline-item">
+                      <a href="#"
+                        ><i
+                          class="fa fa-github social-icon"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                    </li> -->
+                    <!-- Linkedin --
+                    <li class="list-inline-item">
+                      <a href="#"
+                        ><i
+                          class="fa fa-linkedin social-icon"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                    </li> -->
+                    <!-- Mail -->
+                    <li class="list-inline-item">
+                      <a href="mailto:jwei74@wisc.edu"
+                        ><i
+                          class="fa fa-envelope social-icon"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- End of social buttons -->
+              </div>
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0">Jingrui Wei</h5>
+                <div class="card-text text-black-50">Graduate Student</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Team Member -->
+        <!-- Xiangguo Li -->
+        <div class="py-4 col-xl-4 col-lg-4 col-md-6">
+          <div class="card border-0 shadow">
+            <div class="test-container">
+              <div class="card-img-top test-pic">
+                <img
+                  src="https://media-exp3.licdn.com/dms/image/C4D03AQGS6uazt1VjTQ/profile-displayphoto-shrink_100_100/0/1578847290235?e=1631750400&v=beta&t=YWmpCyzZXB7bll9RpH7wThONimDUTrnmPzyt5CLg2Q4"
+                  class="card-img-top test-image"
+                  alt="..."
+                />
+              </div>
+              <div class="mx-auto test-middle">
+                <!-- Social media buttons (on hover) -->
+                <div class="social-links">
+                  <ul class="list-inline mt-5 pt-5">
+                    <!-- Github --
+                    <li class="list-inline-item">
+                      <a href="#"
+                        ><i
+                          class="fa fa-github social-icon"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                    </li> -->
+                    <!-- Linkedin -->
+                    <li class="list-inline-item">
+                      <a
+                        href="https://www.linkedin.com/in/xiangguo-li-44b46670/"
+                        ><i
+                          class="fa fa-linkedin social-icon"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                    </li>
+                    <!-- Mail -->
+                    <li class="list-inline-item">
+                      <a href="mailto:xli2336@wisc.edu"
+                        ><i
+                          class="fa fa-envelope social-icon"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- End of social buttons -->
+              </div>
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0">Xiangguo Li</h5>
+                <div class="card-text text-black-50">Assistant Scientist</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -282,21 +925,73 @@
         >Back To Top</a
       >
     </div>
-
-
   </div>
-  
 </template>
 
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+
+@import "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css";
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
 .foundry-pink {
   color: #ef8481;
 }
 .foundry-blue {
   color: #6f7abf;
+}
+
+section {
+  position: relative;
+  overflow: hidden;
+  min-height: 400px;
+}
+div.img-wrapper-left {
+  /*background-image: url("https://images.pexels.com/photos/1229846/pexels-photo-1229846.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");*/
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  /*   change the left side image width as like you want */
+  width: 50%;
+  left: 0;
+  min-height: 800px;
+  text-align: center;
+}
+
+div.img-wrapper-left.first {
+  background-image: url(../assets/accessibility_img.png);
+}
+div.img-wrapper-left.third {
+  background-image: url(../assets/collaboration_img.png);
+}
+div.img-wrapper-right {
+  background-image: url("https://images.pexels.com/photos/1229846/pexels-photo-1229846.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  /*   change the left side image width as like you want */
+  width: 50%;
+  left: 50%;
+  right: 0;
+  min-height: 800px;
+  text-align: center;
+}
+div.img-wrapper-right.second {
+  background-image: url(../assets/community_img.png);
+}
+
+div.align-center {
+  vertical-align: middle;
+  min-height: 400px;
+}
+
+.vertical-center {
+  align-items: center;
+  justify-content: center;
 }
 
 .tint {
@@ -324,7 +1019,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  animation: fadeInAnimation ease 5s;
+  animation: fadeInAnimation ease 4s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
@@ -400,123 +1095,38 @@
   color: white;
 }
 
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 70px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
+.fa,
+.fas {
+  font-family: "FontAwesome";
+}
+
+.social-icon {
+  color: #fff;
+  background: #ef8481;
+  font-size: 1em;
   border-radius: 50%;
+  line-height: 2.2em;
+  width: 2.1em;
+  height: 2.1em;
+  text-align: center;
+  display: inline-block;
 }
 
-.fa:hover {
-  opacity: 0.7;
+li:hover {
+  transform: translateY(-4px);
+  transition: 0.3s;
 }
 
-.fa-facebook {
-  background: #3b5998;
-  color: white;
+.card-img-top {
+  width: 100%;
+  height: 20vw;
+  object-fit: cover;
+  min-height: 300px;
 }
 
-.fa-twitter {
-  background: #55acee;
-  color: white;
+#zoom_from_top {
+  object-position: 100% 0%;
 }
 
-.fa-google {
-  background: #dd4b39;
-  color: white;
-}
 
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-}
-
-.fa-youtube {
-  background: #bb0000;
-  color: white;
-}
-
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
-
-.fa-pinterest {
-  background: #cb2027;
-  color: white;
-}
-
-.fa-snapchat-ghost {
-  background: #fffc00;
-  color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
-.fa-skype {
-  background: #00aff0;
-  color: white;
-}
-
-.fa-android {
-  background: #a4c639;
-  color: white;
-}
-
-.fa-dribbble {
-  background: #ea4c89;
-  color: white;
-}
-
-.fa-vimeo {
-  background: #45bbff;
-  color: white;
-}
-
-.fa-tumblr {
-  background: #2c4762;
-  color: white;
-}
-
-.fa-vine {
-  background: #00b489;
-  color: white;
-}
-
-.fa-foursquare {
-  background: #45bbff;
-  color: white;
-}
-
-.fa-stumbleupon {
-  background: #eb4924;
-  color: white;
-}
-
-.fa-flickr {
-  background: #f40083;
-  color: white;
-}
-
-.fa-yahoo {
-  background: #430297;
-  color: white;
-}
-
-.fa-soundcloud {
-  background: #ff5500;
-  color: white;
-}
-
-.fa-reddit {
-  background: #ff5700;
-  color: white;
-}
-
-.fa-rss {
-  background: #ff6600;
-  color: white;
-}
 </style>
