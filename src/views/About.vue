@@ -937,10 +937,16 @@
 @import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 
 .foundry-pink {
-  color: #ef8481;
+  color: #fa7b7b;
 }
 .foundry-blue {
-  color: #6f7abf;
+  color: #6b7bc3;
+}
+.foundry-blue-border {
+  color: #2c5191;
+}
+.foundry-pink-border {
+  color: #ff5c5c;
 }
 
 section {

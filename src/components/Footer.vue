@@ -1,32 +1,29 @@
 <template>
   <footer class="site-foot text-center">
-    <div class="footer-content container">
+    <div class="footer-content container pt-5">
+      <!--
       <section class="mb-4 pt-4">
-        <!-- Facebook --
         <a
           class="btn btn-outline-light btn-floating m-1"
           href="#!"
           role="button"
           ><i class="fab fa-facebook-f"></i
-        ></a> -->
+        ></a>
       </section>
+      -->
 
       <!-- Section: Form -->
+      <!--
       <section class="">
         <form action="">
-          <!--Grid row-->
           <div class="row d-flex justify-content-center">
-            <!--Grid column-->
             <div class="col-auto">
               <p class="pt-2">
                 <strong>Sign up for our newsletter</strong>
               </p>
             </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
+            
             <div class="col-md-5 col-12">
-              <!-- Email input -->
               <div class="form-outline form-white mb-4">
                 <input type="email" id="form5Example2" class="form-control" />
                 <label class="form-label" for="form5Example2"
@@ -34,27 +31,22 @@
                 >
               </div>
             </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
+            
             <div class="col-auto">
-              <!-- Submit button -->
               <button type="submit" class="btn btn-outline-light mb-4">
                 Subscribe
               </button>
             </div>
-            <!--Grid column-->
           </div>
-          <!--Grid row-->
         </form>
       </section>
+      -->
       <!-- Section: Form -->
 
       <!-- Section: Links -->
+      <!--
       <section class="">
-        <!--Grid row-->
         <div class="row">
-          <!--Grid column-->
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
             <h5 class="text-uppercase">Links</h5>
 
@@ -73,9 +65,7 @@
               </li>
             </ul>
           </div>
-          <!--Grid column-->
 
-          <!--Grid column-->
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
             <h5 class="text-uppercase">Links</h5>
 
@@ -94,9 +84,7 @@
               </li>
             </ul>
           </div>
-          <!--Grid column-->
 
-          <!--Grid column-->
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
             <h5 class="text-uppercase">Links</h5>
 
@@ -115,9 +103,7 @@
               </li>
             </ul>
           </div>
-          <!--Grid column-->
 
-          <!--Grid column-->
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
             <h5 class="text-uppercase">Links</h5>
 
@@ -136,62 +122,60 @@
               </li>
             </ul>
           </div>
-          <!--Grid column-->
         </div>
-        <!--Grid row-->
       </section>
+      -->
       <!-- Section: Links -->
     </div>
-    <!-- Grid container -->
 
+    <!--
     <hr>
+    -->
 
-    <div class="container py-3">
+    <div class="container py-5">
       <!-- uchicago, wisco, nsf, nist, mdf, chimad, dlhub, argonne, energy -->
-      <section id="block-block-7" class="block block-block clearfix">
-        <div class="col-sm-12 d-flex justify-content-center justify-content-lg-between flex-wrap">
-          
-          <a href="http://uchicago.edu" target="_blank" class="mx-3 mx-lg-2 my-2 my-lg-0">
-            <img alt="uchicago.edu" class="img-responsive mb-3 center-block media-image" height="60" sizes="151px" src="../assets/uchicago_logo.png"></a>
-          
-          <a href="https://www.wisc.edu/" target="_blank" class="mx-3 mx-lg-2 my-2 my-lg-0">
-            <img alt="wisc.edu" class="img-responsive mb-3 center-block media-image attr__typeof__foaf:Image img__fid__50 img__view_mode__media_original attr__format__media_original" height="60" sizes="129px" src="../assets/wisco_logo.png"></a>
-          
-          <a href="http://www.anl.gov" target="_blank" class="mx-3 mx-lg-2 my-2 my-lg-0">
-            <img alt="anl.gov" class="img-responsive mb-3 center-block media-image attr__typeof__foaf:Image img__fid__50 img__view_mode__media_original attr__format__media_original" height="60" sizes="129px" src="../assets/argonne_logo.png"></a>
-          
-          <a href="https://materialsdatafacility.org/" target="_blank" class="mx-3 mx-lg-2 my-2 my-lg-0">
-            <img alt="mdf" class="img-responsive mb-3 center-block media-image attr__typeof__foaf:Image img__fid__53 img__view_mode__media_original attr__format__media_original" height="70" sizes="70px" src="../assets/mdf_logo.png"></a>
-          
-          <!-- 
-          <a href="http://www.nih.gov" target="_blank" class="mx-3 mx-lg-2 my-2 my-lg-0">
-            <img alt="www.nih.gov" class="img-responsive center-block media-image attr__typeof__foaf:Image img__fid__51 img__view_mode__media_original attr__format__media_original" height="70" sizes="70px" src="../assets/nih_logo.png"></a> 
-          -->
-          
-          <a href="http://nsf.gov" target="_blank" class="mx-3 mx-lg-2 my-2 my-lg-0">
-            <img alt="nsf.gov" class="img-responsive mb-3 center-block media-image attr__typeof__foaf:Image img__fid__52 img__view_mode__media_original attr__format__media_original" height="70" sizes="70px" src="../assets/nsf_logo.png"></a>
-          
-          <a href="http://energy.gov" target="_blank" class="mx-3 mx-lg-2 my-2 my-lg-0">
-            <img alt="energy.gov" class="img-responsive mb-3 center-block media-image attr__typeof__foaf:Image img__fid__53 img__view_mode__media_original attr__format__media_original" height="70" sizes="70px" src="../assets/energy_logo.png"></a>
-          
-          <!--
-          <a href="http://www.sloan.org/" target="_blank" class="mx-3 mx-lg-2 my-2 my-lg-0">
-            <img alt="sloan" class="img-responsive mb-3 center-block media-image attr__typeof__foaf:Image img__fid__53 img__view_mode__media_original attr__format__media_original" height="70" sizes="70px" src="../assets/sloan_logo.png"></a>
-          -->
-          
-          <a href="https://www.globus.org/" target="_blank" class="mx-3 mx-lg-2 my-2 my-lg-0">
-            <img alt="globus" class="img-responsive mb-3 center-block media-image attr__typeof__foaf:Image img__fid__53 img__view_mode__media_original attr__format__media_original" height="70" sizes="70px" src="../assets/globus_logo.png"></a>
-          
-          <a href="http://chimad.northwestern.edu/" target="_blank" class="mx-3 mx-lg-2 my-2 my-lg-0">
-            <img alt="chimad" class="img-responsive mb-3 center-block media-image attr__typeof__foaf:Image img__fid__53 img__view_mode__media_original attr__format__media_original" height="70" sizes="70px" src="../assets/chimad_logo.png"></a>
+      <div class="col-sm-12 flex-wrap">
+        
+        <a href="http://uchicago.edu" target="_blank" class="mx-4 mx-lg-2 my-2 my-lg-0">
+          <img alt="uchicago.edu" class="img-responsive mb-3 center-block media-image" height="60" sizes="151px" src="../assets/uchicago_logo.png"></a>
+        
+        <a href="https://www.wisc.edu/" target="_blank" class="px-3 mx-lg-2 my-2 my-lg-0">
+          <img alt="wisc.edu" class="img-responsive mb-3 center-block media-image attr__typeof__foaf:Image img__fid__50 img__view_mode__media_original attr__format__media_original" height="60" sizes="129px" src="../assets/wisco_logo.png"></a>
+        
+        <a href="http://www.anl.gov" target="_blank" class="px-3 mx-lg-2 my-2 my-lg-0">
+          <img alt="anl.gov" class="img-responsive mb-3 center-block media-image attr__typeof__foaf:Image img__fid__50 img__view_mode__media_original attr__format__media_original" height="60" sizes="129px" src="../assets/argonne_logo.png"></a>
+        
+        <a href="https://materialsdatafacility.org/" target="_blank" class="px-3 mx-lg-2 my-2 my-lg-0">
+          <img alt="mdf" class="img-responsive mb-3 center-block media-image attr__typeof__foaf:Image img__fid__53 img__view_mode__media_original attr__format__media_original" height="70" sizes="70px" src="../assets/mdf_logo.png"></a>
+        
+        <!-- 
+        <a href="http://www.nih.gov" target="_blank" class="mx-3 mx-lg-2 my-2 my-lg-0">
+          <img alt="www.nih.gov" class="img-responsive center-block media-image attr__typeof__foaf:Image img__fid__51 img__view_mode__media_original attr__format__media_original" height="70" sizes="70px" src="../assets/nih_logo.png"></a> 
+        -->
+        
+        <a href="http://nsf.gov" target="_blank" class="px-3 mx-lg-2 my-2 my-lg-0">
+          <img alt="nsf.gov" class="img-responsive mb-3 center-block media-image attr__typeof__foaf:Image img__fid__52 img__view_mode__media_original attr__format__media_original" height="70" sizes="70px" src="../assets/nsf_logo.png"></a>
+        
+        <a href="http://energy.gov" target="_blank" class="px-3 mx-lg-2 my-2 my-lg-0">
+          <img alt="energy.gov" class="img-responsive mb-3 center-block media-image attr__typeof__foaf:Image img__fid__53 img__view_mode__media_original attr__format__media_original" height="70" sizes="70px" src="../assets/energy_logo.png"></a>
+        
+        <!--
+        <a href="http://www.sloan.org/" target="_blank" class="mx-3 mx-lg-2 my-2 my-lg-0">
+          <img alt="sloan" class="img-responsive mb-3 center-block media-image attr__typeof__foaf:Image img__fid__53 img__view_mode__media_original attr__format__media_original" height="70" sizes="70px" src="../assets/sloan_logo.png"></a>
+        -->
+        
+        <a href="https://www.globus.org/" target="_blank" class="px-3 mx-lg-2 my-2 my-lg-0">
+          <img alt="globus" class="img-responsive mb-3 center-block media-image attr__typeof__foaf:Image img__fid__53 img__view_mode__media_original attr__format__media_original" height="70" sizes="70px" src="../assets/globus_logo.png"></a>
+        
+        <a href="http://chimad.northwestern.edu/" target="_blank" class="px-3 mx-lg-2 my-2 my-lg-0">
+          <img alt="chimad" class="img-responsive mb-3 center-block media-image attr__typeof__foaf:Image img__fid__53 img__view_mode__media_original attr__format__media_original" height="70" sizes="70px" src="../assets/chimad_logo.png"></a>
 
-          <a href="http://www.dlhub.org/" target="_blank" class="mx-3 mx-lg-2 my-2 my-lg-0">
-            <img alt="dlhub" class="img-responsive mb-3 center-block media-image attr__typeof__foaf:Image img__fid__53 img__view_mode__media_original attr__format__media_original" height="70" sizes="70px" src="../assets/dlhub_logo.png"></a>
-          
-          <a href="https://www.nist.gov/" target="_blank" class="mx-3 mx-lg-2 my-2 my-lg-0">
-            <img alt="nist" class="img-responsive mb-3 center-block media-image attr__typeof__foaf:Image img__fid__53 img__view_mode__media_original attr__format__media_original" height="70" sizes="70px" src="../assets/nist_logo.png"></a>
-        </div>
-      </section>
+        <a href="http://www.dlhub.org/" target="_blank" class="px-3 mx-lg-2 my-2 my-lg-0">
+          <img alt="dlhub" class="img-responsive mb-3 center-block media-image attr__typeof__foaf:Image img__fid__53 img__view_mode__media_original attr__format__media_original" height="70" sizes="70px" src="../assets/dlhub_logo.png"></a>
+        
+        <a href="https://www.nist.gov/" target="_blank" class="px-3 mx-lg-2 my-2 my-lg-0">
+          <img alt="nist" class="img-responsive mb-3 center-block media-image attr__typeof__foaf:Image img__fid__53 img__view_mode__media_original attr__format__media_original" height="70" sizes="70px" src="../assets/nist_logo.png"></a>
+      </div>
     </div>
 
 
