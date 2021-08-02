@@ -13,7 +13,11 @@
     </button>
     <a class="navbar-brand mx-sm-3"
       ><router-link to="/">
-        <img alt="Foundry logo" src="../assets/foundry.png" class="w-50" />
+        <img
+          alt="Foundry logo"
+          src="../assets/foundry.png"
+          class="img-fluid logoImg"
+        />
       </router-link>
     </a>
     <div class="col-2 d-none d-md-block"></div>
@@ -53,5 +57,31 @@ export default {
 <style scoped>
 a {
   text-decoration: none;
+}
+
+.logoImg {
+  max-width: 40%;
+}
+
+@media screen and (max-width: 767px) {
+  .logoImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .logoImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+}
+@media (min-width: 992px) {
+}
+@media (min-width: 1200px) {
 }
 </style>
