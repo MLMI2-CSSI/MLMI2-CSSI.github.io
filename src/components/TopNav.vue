@@ -97,7 +97,7 @@
                   >Documentation</a
                 >
               </b-nav-item>
-              <b-nav-item href="#">
+              <b-nav-item href="https://github.com/MLMI2-CSSI/foundry/tree/main/examples">
                 <a
                   class="nav-item nav-link"
                   target="blank"

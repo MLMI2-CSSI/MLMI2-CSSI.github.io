@@ -26,7 +26,7 @@
           <!-- <h1 class="display-4 col-12 mx-auto neon_test fixText">
             An open source machine learning platform for scientists
           </h1> -->
-          
+
           <p class="mt-3 mx-auto text-center fs-4">
             Access datasets and ML models while setting industry benchmarks
           </p>
@@ -93,14 +93,22 @@
           <h1 class="my-5 pb-4">We make collaboration easy...</h1>
           <div class="row mb-5">
             <div class="col-6 my-auto">
-              <pre v-highlightjs class="bg-light px-5" style="color:#6b7bc3"><code class="python">
-  f = f.load("your_dataset")           
-  X,y = f.load_data()
-    </code>
+              <pre
+                v-highlightjs
+                class="bg-light px-5"
+                style="color: #6b7bc3"
+              ><code class="python">
+                <div class="px-2">
+<!--f = f.load('your_dataset')           
+X,y = f.load_data()</div><div class="code_spacer_text">
+The variable "your_dataset" is the short name for the dataset you want to access. For this example, "your_dataset" is "10.18126/e73h-3w6n."
+<div class="so_spacer">So, the code would be:</div></div><div class="code_spacer_ex">-->
+f = f.load('wei_atom_locating')
+X,y = f.load_data() </div></code>
     <img
             alt="dendrite segmentation data snippet"
-            src="../assets/dendrite-seg-img.png"
-            class="w-100 pb-3"
+            src="../assets/notebook_img.png"
+            class="w-100 pb-4"
           /></pre>
             </div>
             <div class="col-5 px-5 text-center my-auto">
@@ -109,10 +117,10 @@
                 just 2 lines of code.
               </p>
               <a
-                href="https://colab.research.google.com/github/MLMI2-CSSI/foundry/blob/main/examples/dendrite-segmentation/dendrite_segmentation.ipynb"
+                href="https://colab.research.google.com/notebooks/intro.ipynb"
                 target="blank"
                 ><button class="btn btn-primary fs-4 text-center">
-                  Run this in Google Colab
+                  Run this notebook in Google Colab
                 </button></a
               >
             </div>
@@ -121,26 +129,168 @@
           <!-- <div class="col-12 text-end">
             <h1 class="col-11 my-5">...and save you valuable time.</h1>
           </div> -->
-          <div class="mt-5 pt-4">   </div>
-          <div class="row">
-            <div class="col-6">
-              <p class="lead fs-2 my-auto">
-                No need to spend time making sense of someone else's data. We
-                collect information about each dataset to take out any guesswork
-                on your part. Our publishing process also includes a human
-                review to make sure it meets our data standards.
-              </p>
-            </div>
-            <div class="col-5 my-auto">
-              <table class="table table-striped" style="background-color: #fff">
+          <div class="mt-5 pt-4"></div>
+          <p class="lead fs-2 pb-4">
+            No need to spend time making sense of someone else's data. We
+            collect information about each dataset to take out any guesswork on
+            your part. Our publishing process also includes a human review to
+            make sure it meets our data standards.
+          </p>
+          <div class="row justify-content-center">
+            <div class="col-auto">
+              <table
+                class="table table-responsive table-striped mt-3 w-auto"
+                style="background-color: #fff"
+              >
                 <tbody>
                   <tr>
-                    <td class="fw-bold">hello</td>
-                    <td>hello</td>
+                    <td class="fw-bold">keys</td>
+                    <td>
+                      <ul>
+                        <li>
+                          <table
+                            class="table table-bordered w-auto"
+                            style="background-color: #fff"
+                          >
+                            <thead>
+                              <tr>
+                                <th scope="col">keys</th>
+                                <th scope="col">type</th>
+                                <th scope="col">filter</th>
+                                <th scope="col">units</th>
+                                <th scope="col">description</th>
+                                <th scope="col">classes</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <ul>
+                                    <li>imgs</li>
+                                  </ul>
+                                </td>
+                                <td>input</td>
+                                <td></td>
+                                <!-- Empty rn -->
+                                <td></td>
+                                <!-- Empty rn -->
+                                <td>input, unlabeled images</td>
+                                <td></td>
+                                <!-- Empty rn -->
+                              </tr>
+                              <tr>
+                                <td>
+                                  <ul>
+                                    <li>raw</li>
+                                  </ul>
+                                </td>
+                                <td>input</td>
+                                <td></td>
+                                <!-- Empty rn -->
+                                <td></td>
+                                <!-- Empty rn -->
+                                <td>raw, unlabeled images</td>
+                                <td></td>
+                                <!-- Empty rn -->
+                              </tr>
+                              <tr>
+                                <td>
+                                  <ul>
+                                    <li>metadata</li>
+                                  </ul>
+                                </td>
+                                <td>input</td>
+                                <td></td>
+                                <!-- Empty rn -->
+                                <td></td>
+                                <!-- Empty rn -->
+                                <td>
+                                  tabular information describing the
+                                  experimental conditions and materials for each
+                                  image
+                                </td>
+                                <td></td>
+                                <!-- Empty rn -->
+                              </tr>
+                              <tr>
+                                <td>
+                                  <ul>
+                                    <li>coords</li>
+                                  </ul>
+                                </td>
+                                <td>target</td>
+                                <td></td>
+                                <!-- Empty rn -->
+                                <td></td>
+                                <!-- Empty rn -->
+                                <td>
+                                  (x,y) coordinates for labeled atoms for each
+                                  image
+                                </td>
+                                <td></td>
+                                <!-- Empty rn -->
+                              </tr>
+                            </tbody>
+                          </table>
+                        </li>
+                      </ul>
+                    </td>
                   </tr>
                   <tr>
-                    <td class="fw-bold">hello</td>
-                    <td>hello</td>
+                    <td class="fw-bold">splits</td>
+                    <td>
+                      <ul>
+                        <li>
+                          <table
+                            class="table table-bordered w-auto"
+                            style="background-color: #fff"
+                          >
+                            <tbody>
+                              <tr>
+                                <td class="fw-bold">type</td>
+                                <td>train</td>
+                              </tr>
+                              <tr>
+                                <td class="fw-bold">path</td>
+                                <td>wei_atom.h5</td>
+                              </tr>
+                              <tr>
+                                <td class="fw-bold">label</td>
+                                <td>train</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="fw-bold">data_type</td>
+                    <td>hdf5</td>
+                  </tr>
+                  <tr>
+                    <td class="fw-bold">short_name</td>
+                    <td>wei_atom_locating</td>
+                  </tr>
+                  <tr>
+                    <td class="fw-bold">task_type</td>
+                    <td>
+                      <ul>
+                        <li>materials science</li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="fw-bold">domain</td>
+                    <td>
+                      <ul>
+                        <li>materials science</li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="fw-bold">n-items</td>
+                    <td>299</td>
                   </tr>
                 </tbody>
               </table>
@@ -155,10 +305,10 @@
 
       <!-- be apart of foundry section -->
 
-      <div class="mx-auto col-7 mt-5">
+      <div class="mx-auto col-7 my-5">
         <div class="col-11 mx-auto">
           <h1 class="text-center my-5 display-4 neon">Build Foundry With Us</h1>
-          <p class=" text-center fs-4">
+          <p class="text-center fs-4">
             At Foundry, we believe accessibility and collaboration are the keys
             to problem solving. That's why we've made it super easy for you to
             share and use data. If you have a dataset you'd like to contribute,
@@ -211,13 +361,18 @@
 }
 .btn-primary:hover,
 .btn-primary:focus,
-.btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: #fff;
   background-color: #6b7bc3;
   border-color: #2c5191; /*set the color you want here*/
+}
 
+.btn-primary:active,
+.btn-primary.active {
+  color: #fff;
+  background-color: #fa7b7b;
+  border-color: #ff5c5c; /*set the color you want here*/
 }
 
 .link-color:link {
@@ -247,7 +402,6 @@
 .icons {
   color: #6b7bc3;
 }
-
 
 pre {
   overflow-x: auto;
@@ -342,61 +496,85 @@ p:nth-child(1) a {
   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #6b7bc3,
     0 0 35px #6b7bc3, 0 0 40px #6b7bc3, 0 0 50px #6b7bc3, 0 0 75px #6b7bc3;
 }
-/* Put below back if you want glow text on home page to pulse (but it seems to make the page run slow / lag)
-p:nth-child(1) a:hover {
-  color: #ff1177;
-  -webkit-animation: none;
-  -moz-animation: none;
-  animation: none;
-}
-
-@-webkit-keyframes neon1 {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fa7b7b,
-      0 0 70px #fa7b7b, 0 0 80px #fa7b7b, 0 0 100px #fa7b7b, 0 0 150px #fa7b7b;
-  }
-  to {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fa7b7b,
-      0 0 35px #fa7b7b, 0 0 40px #fa7b7b, 0 0 50px #fa7b7b, 0 0 75px #fa7b7b;
-  }
-}
-
-@-moz-keyframes neon1 {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fa7b7b,
-      0 0 70px #fa7b7b, 0 0 80px #fa7b7b, 0 0 100px #fa7b7b, 0 0 150px #fa7b7b;
-  }
-  to {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fa7b7b,
-      0 0 35px #fa7b7b, 0 0 40px #fa7b7b, 0 0 50px #fa7b7b, 0 0 75px #fa7b7b;
-  }
-}
-
-@keyframes neon1 {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fa7b7b,
-      0 0 70px #fa7b7b, 0 0 80px #fa7b7b, 0 0 100px #fa7b7b, 0 0 150px #fa7b7b;
-  }
-  to {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fa7b7b,
-      0 0 35px #fa7b7b, 0 0 40px #fa7b7b, 0 0 50px #fa7b7b, 0 0 75px #fa7b7b;
-  }
-}
-*/
 
 @media screen and (max-width: 767px) {
   /* When screen is small, cards stack - this puts a space between them */
   .break {
     margin-top: 4em;
   }
+  .code_spacer_text {
+    padding-left: 0em;
+    padding-right: 0em;
+    margin-left: 0em;
+    margin-right: 0em;
+  }
+  .code_spacer_ex {
+    padding-left: 0em;
+    padding-right: 0em;
+    margin-left: 0em;
+    margin-right: 0em;
+  }
 }
 @media screen and (min-width: 768px) {
+  .code_spacer_text {
+    padding-left: 0em;
+    padding-right: 0em;
+    margin-left: 0em;
+    margin-right: 0em;
+  }
+  .code_spacer_ex {
+    padding-left: 0em;
+    padding-right: 0em;
+    margin-left: 0em;
+    margin-right: 0em;
+  }
 }
 @media (min-width: 992px) {
+  .code_spacer_text {
+    padding-left: 0em;
+    padding-right: 0em;
+    margin-left: 0em;
+    margin-right: 0em;
+  }
+  .code_spacer_ex {
+    padding-left: 0em;
+    padding-right: 0em;
+    margin-left: 0em;
+    margin-right: 0em;
+  }
 }
 @media (min-width: 1200px) {
+  .code_spacer_text {
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+  .code_spacer_ex {
+    padding-left: 12em;
+    margin-left: 0em;
+    margin-right: 0em;
+  }
+  .so_spacer {
+    text-align: center;
+  }
 }
-
+@media (min-width: 1500px) {
+  .code_spacer_text {
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+  .code_spacer_ex {
+    padding-left: 25em;
+    margin-left: 0em;
+    margin-right: 0em;
+  }
+  .so_spacer {
+    text-align: center;
+  }
+}
 h1,
 h2,
 h3,
@@ -412,6 +590,155 @@ h1 {
 spacer {
   margin-top: 5000px;
 }
+
+/*
+<div class="row">
+            <div class="col-6">
+              <p class="lead fs-2 my-auto">
+                No need to spend time making sense of someone else's data. We
+                collect information about each dataset to take out any guesswork
+                on your part. Our publishing process also includes a human
+                review to make sure it meets our data standards.
+              </p>
+            </div>
+            <div class="col-5 my-auto">
+              <table class="table table-striped" style="background-color: #fff">
+                <tbody>
+                  <tr>
+                    <td class="fw-bold">keys</td>
+                    <td>
+                      <ul>
+                        <li>
+                          <table
+                            class="table table-striped"
+                            style="background-color: #fff"
+                          >
+                            <thead>
+                              <tr>
+                                <th scope="col">keys</th>
+                                <th scope="col">type</th>
+                                <th scope="col">filter</th>
+                                <th scope="col">units</th>
+                                <th scope="col">description</th>
+                                <th scope="col">classes</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <ul>
+                                    <li>imgs</li>
+                                  </ul>
+                                </td>
+                                <td>input</td>
+                                <td></td> <!-- Empty rn -->
+                                <td></td> <!-- Empty rn -->
+                                <td>input, unlabeled images</td>
+                                <td></td> <!-- Empty rn -->
+                              </tr>
+                              <tr>
+                                <td>
+                                  <ul>
+                                    <li>raw</li>
+                                  </ul>
+                                </td>
+                                <td>input</td>
+                                <td></td> <!-- Empty rn -->
+                                <td></td> <!-- Empty rn -->
+                                <td>raw, unlabeled images</td>
+                                <td></td> <!-- Empty rn -->
+                              </tr>
+                              <tr>
+                                <td>
+                                  <ul>
+                                    <li>metadata</li>
+                                  </ul>
+                                </td>
+                                <td>input</td>
+                                <td></td> <!-- Empty rn -->
+                                <td></td> <!-- Empty rn -->
+                                <td>tabular information describing the experimental conditions and materials for each image</td>
+                                <td></td> <!-- Empty rn -->
+                              </tr>
+                              <tr>
+                                <td>
+                                  <ul>
+                                    <li>coords</li>
+                                  </ul>
+                                </td>
+                                <td>target</td>
+                                <td></td> <!-- Empty rn -->
+                                <td></td> <!-- Empty rn -->
+                                <td>(x,y) coordinates for labeled atoms for each image</td>
+                                <td></td> <!-- Empty rn -->
+                              </tr>
+                            </tbody>
+                          </table>
+                        </li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="fw-bold">splits</td>
+                    <td>
+                      <ul>
+                        <li>
+                          <table
+                            class="table table-striped"
+                            style="background-color: #fff"
+                          >
+                            <tbody>
+                              <tr>
+                                <td class="fw-bold">type</td>
+                                <td>train</td>
+                              </tr>
+                              <tr>
+                                <td class="fw-bold">path</td>
+                                <td>wei_atom.h5</td>
+                              </tr>
+                              <tr>
+                                <td class="fw-bold">label</td>
+                                <td>train</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="fw-bold">data_type</td>
+                    <td>hdf5</td>
+                  </tr>
+                  <tr>
+                    <td class="fw-bold">short_name</td>
+                    <td>wei_atom_locating</td>
+                  </tr>
+                  <tr>
+                    <td class="fw-bold">task_type</td>
+                    <td>
+                      <ul>
+                        <li>materials science</li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="fw-bold">domain</td>
+                    <td>
+                      <ul>
+                        <li>materials science</li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="fw-bold">n-items</td>
+                    <td>299</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+*/
 </style>
 
 <script>
