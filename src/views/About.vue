@@ -384,7 +384,7 @@
             <div class="test-container">
               <div class="card-img-top">
                 <img
-                  src="https://www.harmonettesacappella.com/uploads/4/1/0/5/4105974/published/screen-shot-2018-11-05-at-8-33-26-pm_1.png?1566856223"
+                  src="../assets/headshots/imogen_headshot.png"
                   class="card-img-top test-image"
                   alt="..."
                   id="zoom_from_top"
@@ -587,7 +587,7 @@
             <div class="test-container">
               <div class="card-img-top test-pic">
                 <img
-                  src="https://news.wisc.edu/content/uploads/2018/07/Dane-Morgan-e1532021881649.jpg"
+                  src="../assets/headshots/dane_morgan_headshot.png"
                   class="card-img-top test-image"
                   alt="..."
                 />
@@ -642,7 +642,7 @@
             <div class="test-container">
               <div class="card-img-top test-pic">
                 <img
-                  src="https://matmodel.engr.wisc.edu/wp-content/uploads/sites/668/2017/12/RJ_photo-e1513313351991.jpg"
+                  src="../assets/headshots/ryan_jacobs_headshot.png"
                   class="card-img-top test-image"
                   alt="..."
                 />
@@ -698,7 +698,7 @@
             <div class="test-container">
               <div class="card-img-top test-pic">
                 <img
-                  src="https://directory.engr.wisc.edu/private/includes/profilePictures/v/voyles_paul.jpg"
+                  src="../assets/headshots/paul_voyles_headshot.png"
                   class="card-img-top test-image"
                   alt="..."
                   id="zoom_from_top"
@@ -755,7 +755,7 @@
             <div class="test-container">
               <div class="card-img-top test-pic">
                 <img
-                  src="https://gers.engr.wisc.edu/files/Picture/IMG_0694-e1530895632442%20-%20Lane%20Schultz.jpg"
+                  src="../assets/headshots/lane_schultz_headshot.png"
                   class="card-img-top test-image"
                   alt="..."
                 />
@@ -810,7 +810,7 @@
             <div class="test-container">
               <div class="card-img-top test-pic zoom_from_top">
                 <img
-                  src="https://i1.rgstatic.net/ii/profile.image/583671371292678-1516169507532_Q512/Jingrui-Wei.jpg"
+                  src="../assets/headshots/jingrui_wei_headshot.png"
                   class="card-img-top test-image"
                   alt="..."
                   id="zoom_from_top"
@@ -866,7 +866,7 @@
             <div class="test-container">
               <div class="card-img-top test-pic">
                 <img
-                  src="https://media-exp3.licdn.com/dms/image/C4D03AQGS6uazt1VjTQ/profile-displayphoto-shrink_100_100/0/1578847290235?e=1631750400&v=beta&t=YWmpCyzZXB7bll9RpH7wThONimDUTrnmPzyt5CLg2Q4"
+                  src="../assets/headshots/xiangguo_lui_headshot.png"
                   class="card-img-top test-image"
                   alt="..."
                 />
