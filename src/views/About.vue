@@ -188,7 +188,7 @@
         <div class="py-4 col-xl-4 col-lg-4 col-md-6">
           <div class="card border-0 shadow">
             <div class="test-container">
-              <div class="card-img-top test-pic">
+              <div class="card-img-top">
                 <img
                   src="../assets/headshots/ben_headshot.png"
                   class="card-img-top test-image"
@@ -252,7 +252,7 @@
         <div class="py-4 col-xl-4 col-lg-4 col-md-6">
           <div class="card border-0 shadow">
             <div class="test-container">
-              <div class="card-img-top test-pic">
+              <div class="card-img-top">
                 <img
                   src="../assets/headshots/kj_headshot.png"
                   class="card-img-top test-image"
@@ -317,7 +317,7 @@
         <div class="py-4 col-xl-4 col-lg-4 col-md-6">
           <div class="card border-0 shadow">
             <div class="test-container">
-              <div class="card-img-top test-pic">
+              <div class="card-img-top">
                 <img
                   src="../assets/headshots/ari_headshot.png"
                   class="card-img-top test-image"
@@ -382,7 +382,7 @@
         <div class="py-4 col-xl-4 col-lg-4 col-md-6">
           <div class="card border-0 shadow">
             <div class="test-container">
-              <div class="card-img-top test-pic zoom_from_top">
+              <div class="card-img-top">
                 <img
                   src="https://www.harmonettesacappella.com/uploads/4/1/0/5/4105974/published/screen-shot-2018-11-05-at-8-33-26-pm_1.png?1566856223"
                   class="card-img-top test-image"
@@ -447,7 +447,7 @@
         <div class="py-4 col-xl-4 col-lg-4 col-md-6">
           <div class="card border-0 shadow">
             <div class="test-container">
-              <div class="card-img-top test-pic">
+              <div class="card-img-top">
                 <img
                   src="../assets/headshots/zoa_headshot.png"
                   class="card-img-top test-image zoom_from_top"
@@ -511,11 +511,12 @@
         <div class="py-4 col-xl-4 col-lg-4 col-md-6">
           <div class="card border-0 shadow">
             <div class="test-container">
-              <div class="card-img-top test-pic">
+              <div class="card-img-top zoom-from-top">
                 <img
-                  src="https://media-exp1.licdn.com/dms/image/C4D03AQFpW8SD-AE4RA/profile-displayphoto-shrink_200_200/0/1609700428475?e=1628726400&v=beta&t=CRURJzPh8STIk20JHHLYhOezPWPrxczu4JThbdAcfec"
+                  src="../assets/headshots/ribhav_headshot.png"
                   class="card-img-top test-image"
                   alt="..."
+                  id="zoom_from_top"
                 />
               </div>
               <div class="mx-auto test-middle">
@@ -936,6 +937,8 @@
 @import "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css";
 @import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@100;200&display=swap");
+
 .foundry-pink {
   color: #fa7b7b;
 }
@@ -1134,5 +1137,20 @@ li:hover {
   object-position: 100% 0%;
 }
 
+
+h1, h2, h3, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+p, h4, div {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+}
+
+/*
+font-family: 'Open Sans', sans-serif; (p)
+font-family: 'Raleway', sans-serif; (h)
+*/
 
 </style>

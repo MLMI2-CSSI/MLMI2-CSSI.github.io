@@ -80,7 +80,11 @@
         <div class="col" style="text-align: right">
           <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
-          <b-collapse id="nav-collapse" style="justify-content: flex-end" is-nav>
+          <b-collapse
+            id="nav-collapse"
+            style="justify-content: flex-end"
+            is-nav
+          >
             <b-navbar-nav>
               <b-nav-item>
                 <router-link to="/about"
@@ -97,7 +101,9 @@
                   >Documentation</a
                 >
               </b-nav-item>
-              <b-nav-item href="https://github.com/MLMI2-CSSI/foundry/tree/main/examples">
+              <b-nav-item
+                href="https://github.com/MLMI2-CSSI/foundry/tree/main/examples"
+              >
                 <a
                   class="nav-item nav-link"
                   target="blank"
@@ -145,6 +151,8 @@
 </template>
 
 <style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@100;200&display=swap");
+
 .foundry-pink {
   color: #fa7b7b;
 }
@@ -157,203 +165,47 @@
 .foundry-pink-border {
   color: #ff5c5c;
 }
-/*
-.navbar-logo {
-  width: 30%;
-  margin-left: auto;
-  margin-right: auto;
-}*/
 
 .logoImg {
   padding-left: 1em;
-  width:50%;
+  width: 50%;
   min-width: 40%;
   max-width: 60%;
-
 }
-
-@media screen and (max-width: 767px) {
-  .logoImg {
-
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .logoImg {
-
-  }
-}
-@media (min-width: 992px) {
-  .logoImg {
-
-  }
-}
-@media (min-width: 1200px) {
-  .logoImg {
-
-  }
-}
-/*
-b-navbar {
-  background-color: #fff;
-  margin-top: 5em;
-  padding-top: 5em;
-}*/
 
 a {
   text-decoration: none;
 }
-
 a:hover {
   text-decoration: none;
 }
-
 a.nav-item.nav-link {
   color: #6b7bc3;
 }
-
 a.nav-item.nav-link:link {
   color: #6b7bc3;
   text-decoration: none;
 }
-/*
 a.nav-item.nav-link:visited {
-  color: #fa7b7b;
+  color: #6b7bc3;
   text-decoration: none;
 }
-*/
 a.nav-item.nav-link:hover {
   color: #fa7b7b;
   text-decoration: none;
 }
-
 a.nav-item.nav-link:active {
   color: #fa7b7b;
   text-decoration: none;
 }
-/*
-.link-color:link {
-  color: #6b7bc3;
-  text-decoration: none;
-}
 
-.link-color:visited {
-  color: #fa7b7b;
-  text-decoration: none;
-}
-
-.link-color:hover {
-  color: #fa7b7b;
-  text-decoration: none;
-}
-
-.link-color:active {
-  color: #fa7b7b;
-  text-decoration: none;
-}*/
-</style>
-
-
-<!--
-<template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-toggle="collapse"
-      data-target="#navbarNavAltMarkup"
-      aria-controls="navbarNavAltMarkup"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <a class="navbar-brand mx-sm-3"
-      ><router-link to="/">
-        <img
-          alt="Foundry logo"
-          src="../assets/foundry.png"
-          class="img-fluid logoImg"
-        />
-      </router-link>
-    </a>
-    <div class="col-2 d-none d-md-block"></div>
-    <div class="floatRight collapse navbar-collapse col-4" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <router-link to="/about"
-          ><a class="nav-item nav-link" href="#">About</a></router-link
-        >
-        <a
-          class="nav-item nav-link"
-          target="blank"
-          href="https://ai-materials-and-chemistry.gitbook.io/foundry/v/docs/"
-          >Documentation</a
-        >
-        <a
-          class="nav-item nav-link"
-          target="blank"
-          href="https://github.com/MLMI2-CSSI/foundry/tree/main/examples"
-          >Examples</a
-        >
-      </div>
-    </div>
-  </nav>
-</template>
-
-<script>
-export default {
-  name: "TopNav",
-  props: {
-    msg: String,
-  },
-};
-</script>
-
-
-!-- Add "scoped" attribute to limit CSS to this component only --
-<style scoped>
 a {
-  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
 }
-
-.logoImg {
-  max-width: 40%;
-}
-
-.floatRight {
-  float: right;
-}
-
-@media screen and (max-width: 767px) {
-  .logoImg {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .logoImg {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media (min-width: 992px) {
-  .logoImg {
-    display: block;
-    float: left;
-  }
-}
-@media (min-width: 1200px) {
-  .logoImg {
-    display: block;
-    float: left;
-  }
-}
+/*
+font-family: 'Open Sans', sans-serif; (p)
+font-family: 'Raleway', sans-serif; (h)
+*/
 </style>
-
--->
-
-
 
